@@ -78,14 +78,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_blue_plus:
+  flutter_blue:
     dependency: "direct main"
     description:
-      name: flutter_blue_plus
-      sha256: "4e49b45d2f1ec9855826ed0af7d2b78b7d2a3e5743b3ae72aec59eb3790356d9"
+      name: flutter_blue
+      sha256: f7f76b9b80455b0375693ec96c276fadb01e94d8441fa1740a64980cd1aeda5c
       url: "https://pub.dev"
     source: hosted
-    version: "1.4.0"
+    version: "0.8.0"
   flutter_bluetooth_serial:
     dependency: "direct main"
     description:
@@ -102,11 +102,35 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
+  flutter_reactive_ble:
+    dependency: "direct main"
+    description:
+      name: flutter_reactive_ble
+      sha256: "9eea5244d1958608f22e96dcb2ee459f7f37434b28e43c0a829276b6dc7d1aaa"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.3"
+  flutter_scan_bluetooth:
+    dependency: "direct main"
+    description:
+      name: flutter_scan_bluetooth
+      sha256: "0ddf2f670476e0a3d02b1a1d8c4ab7fd29412b15be7a1f6a7d21cdb108a44ae3"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.2"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
+  functional_data:
+    dependency: transitive
+    description:
+      name: functional_data
+      sha256: "950f886463a7531a3b77904e0eb89e8e06dda78c4e3f5a84686445a2290cce18"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   js:
     dependency: transitive
     description:
@@ -147,6 +171,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.0"
+  nearby_connections:
+    dependency: "direct main"
+    description:
+      name: nearby_connections
+      sha256: e80c7ad09230da3663de0ed424887c559d3a90241f27b6e0bac6e56334a6c238
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.3.0"
   path:
     dependency: transitive
     description:
@@ -211,14 +243,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
+  reactive_ble_mobile:
+    dependency: transitive
+    description:
+      name: reactive_ble_mobile
+      sha256: "616a5ad9bc96fe051414a41b133e13f75ef35e6d8db77c84f0527a43afbf614e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.3"
+  reactive_ble_platform_interface:
+    dependency: transitive
+    description:
+      name: reactive_ble_platform_interface
+      sha256: f9a446150076f1601c397b6bbf554eda2c37b066bb7397a226e72f04c13dbd9b
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.3"
   rxdart:
     dependency: transitive
     description:
       name: rxdart
-      sha256: "0c7c0cedd93788d996e33041ffecda924cc54389199cde4e6a34b440f50044cb"
+      sha256: "2ef8b4e91cb3b55d155e0e34eeae0ac7107974e451495c955ac04ddee8cc21fd"
       url: "https://pub.dev"
     source: hosted
-    version: "0.27.7"
+    version: "0.26.0"
   sky_engine:
     dependency: transitive
     description: flutter
